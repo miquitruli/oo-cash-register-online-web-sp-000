@@ -30,6 +30,7 @@ class CashRegister
   end
 
   def items
+    @items=items
     @items <<  purchase
   end
 
