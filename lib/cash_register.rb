@@ -7,9 +7,9 @@ class CashRegister
     @items= []
   end
 
-  def add_item(title, price, quantity=1)
+  def add_item(item, price, quantity=1)
     purchase={}
-    purchase[:name] = title
+    purchase[:name] = item
     purchase[:price] = price
     purchase[:quantity] = quantity
 
