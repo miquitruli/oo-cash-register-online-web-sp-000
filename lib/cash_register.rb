@@ -13,7 +13,7 @@ class CashRegister
     purchase[:price] = price
     purchase[:quantity] = quantity
 
-    @items <<  purchase
+    @items << item
 
     @total += price * quantity
 
